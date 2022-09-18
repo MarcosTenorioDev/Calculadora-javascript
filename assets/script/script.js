@@ -24,5 +24,10 @@ function calc()
     {
     document.getElementById('result').innerHTML = eval(result);
     }
+
+    else
+    {
+        document.getElementById('result').innerHTML = "Insira algo válido"
+    }
     
 }
